@@ -4,8 +4,8 @@ Libs:
     PyAudio==0.2.11
 
 Passo-a-passo na construção:
-    1. Reconhecimento de voz;
-    2. Síntese de voz;
+    1. Reconhecimento de voz: Google e vosk
+    2. Síntese de voz: pyttsx3
     3. Desenvolvimento de uma IA (inteligência artificial).
 
 Reconhecimento de voz:
