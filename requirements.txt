@@ -2,11 +2,12 @@ Libs:
     SpeechRecognition==3.8.1
     vosk==0.3.31
     PyAudio==0.2.11
+    pyttsx3==2.90
 
 Passo-a-passo na construção:
-    1. Reconhecimento de voz;
-    2. Síntese de voz;
-    3. Desenvolvimento de uma IA (inteligência artificial).
+    1. Reconhecimento de voz: Google e vosk
+    2. Síntese de voz: pyttsx3
+    3. Desenvolvimento de uma IA (inteligência artificial):
 
 Reconhecimento de voz:
     Google - Para reconhecimento online
