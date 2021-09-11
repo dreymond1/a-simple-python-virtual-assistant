@@ -11,3 +11,7 @@ Passo-a-passo na construção:
 Reconhecimento de voz:
     Google - Para reconhecimento online
     Vosk - Para reconhecimento offline
+
+IA:
+    Comandos;
+    NLU;
