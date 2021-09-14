@@ -46,7 +46,7 @@ while True:
             # repete em voz o que foi dito
             # speak(text)
 
-            if text == 'que dia é hoje':
+            if text == 'data de hoje':
                 speak(core.SystemInfo.get_date())
 
             if text == 'que horas são':
