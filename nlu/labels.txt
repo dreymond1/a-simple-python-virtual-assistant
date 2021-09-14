@@ -1,0 +1,4 @@
+time|getTime
+weather|getWeather
+open|None
+time|getDate
