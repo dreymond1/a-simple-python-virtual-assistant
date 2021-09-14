@@ -41,13 +41,30 @@ while True:
 
         if result is not None:
             text = result['text']
-            # printa o que foi dito
-            print(text)
-            # repete em voz o que foi dito
-            # speak(text)
+            #text = str(input('Escreva: '))
 
             if text == 'data de hoje':
                 speak(core.SystemInfo.get_date())
 
             if text == 'que horas são':
                 speak(core.SystemInfo.get_time())
+
+            if text == 'abrir bloco de notas':
+                speak('Abrindo o bloco de notas')
+                speak(core.SystemInfo.get_Notepad())
+
+            if text == 'sair':
+                speak('Desligando')
+                exit()
+
+            if text == 'abrir terminal':
+                speak('Abrindo o Prompt de comando')
+                speak(core.SystemInfo.get_Prompt())
+
+            if text == 'abrir navegador':
+                speak('Abrindo o Google Chrome')
+                speak(core.SystemInfo.get_Chrome())
+print(text)
+
+
+            
